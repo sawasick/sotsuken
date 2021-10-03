@@ -1,0 +1,12 @@
+.u- {
+  &margin {
+    &-bottom {
+      &--medium {
+        font-size: $margin-size-medium;
+      }
+      &--large {
+        font-size: $margin-size-large;
+      }
+    }
+  }
+}

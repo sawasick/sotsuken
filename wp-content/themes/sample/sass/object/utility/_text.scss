@@ -1,0 +1,12 @@
+.u- {
+  &txt {
+    &-size {
+      &--medium {
+        font-size: $txt-size-medium;
+      }
+      &--large {
+        font-size: $txt-size-large;
+      }
+    }
+  }
+}
