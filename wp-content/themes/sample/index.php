@@ -1,5 +1,7 @@
 <?php get_header();?>
 
+<?php
+/*
 <div class="l-main__wrapper">
   <div class="l-article__wrapper">
     <div class="l-article__content p-article">
@@ -49,6 +51,9 @@
     <p>サイドバー</p>
   </div>
 </div>
+*/
+?>
+
 <?php 
 /*<div id="mainWrap">
   <div id="contentsWrap">

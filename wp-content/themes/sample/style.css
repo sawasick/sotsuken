@@ -506,6 +506,49 @@ Object
   margin-bottom: 0;
 }
 
+#toc_container {
+  margin: 0 auto;
+  border: 1px solid #BFBFBF;
+  border-radius: 2px;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+#toc_container .toc_title {
+  padding: 8px 24px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #FFDCDC;
+  position: relative;
+  color: #FF8787;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#toc_container .toc_list {
+  padding: 5px 24px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: right;
+  text-align: left;
+  font-size: 14px;
+  counter-reset: toc;
+}
+#toc_container .toc_list li {
+  position: relative;
+}
+#toc_container .toc_list li a {
+  display: block;
+  padding: 8px 8px 8px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #FF6767;
+  text-decoration: none;
+  border-bottom: 1px dotted #bbb;
+}
+#toc_container .toc_list > li:last-of-type a {
+  border-bottom: 0;
+}
+
 .project {
   text-align: center;
 }
