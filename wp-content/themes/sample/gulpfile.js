@@ -65,7 +65,7 @@ const compileSassExpand = () =>
  */
 const watchSassFiles = () =>
   watch(
-    './sass/*.scss',
+    './sass/**/**.scss',
     compileSassExpand
   );
 
