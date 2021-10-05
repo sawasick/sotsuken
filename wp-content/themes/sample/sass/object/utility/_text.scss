@@ -1,6 +1,6 @@
 .u- {
   &txt {
-    &-size {
+    &__size {
       &--medium {
         font-size: $txt-size-medium;
       }
@@ -8,5 +8,26 @@
         font-size: $txt-size-large;
       }
     }
+    
+    &--anchor {
+      color: #0D81ED;
+      text-decoration: underline;
+      font-style: normal;
+    }
+
+    &--emphasis {
+      color: #FF6767;
+      font-weight: bold;
+    }
+
+    &--marker {
+      font-weight: bold;
+      background: linear-gradient(transparent 80%, #F8DE82 0);
+    }
+    &--note {
+      color: #6F6F6F;
+      word-break: break-all;
+    }
   }
+
 }

@@ -1,11 +1,17 @@
 .u- {
   &margin {
-    &-bottom {
+    &__bottom {
+      &--xxsmall {
+        margin-bottom: $margin-size-xxsmall;
+      }
+      &--small {
+        margin-bottom: $margin-size-small;
+      }
       &--medium {
-        font-size: $margin-size-medium;
+        margin-bottom: $margin-size-medium;
       }
       &--large {
-        font-size: $margin-size-large;
+        margin-bottom: $margin-size-large;
       }
     }
   }

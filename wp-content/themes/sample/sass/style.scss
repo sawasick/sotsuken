@@ -14,16 +14,24 @@ Layout
 --------------------------------------------------------- */
 @import 'layout/header';
 @import 'layout/footer';
+@import 'layout/main';
+@import 'layout/article';
+@import 'layout/sidebar';
 
 /* ---------------------------------------------------------
 Object
 --------------------------------------------------------- */
 //component
 @import 'object/component/component';
+@import 'object/component/heading';
+@import 'object/component/table';
+@import 'object/component/list';
 
 //project
 @import 'object/project/project';
+@import 'object/project/article';
 
 //utility
 @import 'object/utility/margin';
 @import 'object/utility/text';
+@import 'object/utility/image';
