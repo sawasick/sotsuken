@@ -10,7 +10,10 @@
 <body <?php body_class(); ?>>
 
 <header class="site-header">
+  <?php 
+  /*
   <h1><a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></h1>
   <h4><?php bloginfo( 'description' ); ?></h4>
-  <p>ヘッダーっやで</p>
+  */
+  ?>
 </header>

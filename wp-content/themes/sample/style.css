@@ -390,7 +390,11 @@ Layout
 }
 
 .l-main__wrapper {
-  width: 1040px;
+  width: 960px;
+  margin: 0 auto;
+}
+.l-main__inner {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -399,7 +403,7 @@ Layout
 .l-article__wrapper {
   width: 700px;
   background-color: #F6F6F6;
-  margin: 0 40px;
+  margin: 0 40px 0 0;
 }
 .l-article__content {
   width: 600px;
@@ -548,6 +552,44 @@ Object
 }
 #toc_container .toc_list > li:last-of-type a {
   border-bottom: 0;
+}
+
+.c-breadcrumb {
+  width: 960px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  font-size: 12px;
+}
+.c-breadcrumb li {
+  display: inline-block;
+  position: relative;
+  padding-left: 15px;
+  color: #777;
+  line-height: 1.2;
+}
+.c-breadcrumb li::after {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  border: 1px solid;
+  border-color: #777 #777 transparent transparent;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.c-breadcrumb li:first-child::after {
+  content: none;
+}
+.c-breadcrumb li:first-child {
+  padding-left: 0;
 }
 
 .project {
