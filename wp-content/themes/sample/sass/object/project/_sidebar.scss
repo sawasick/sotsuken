@@ -73,4 +73,30 @@
     color: #777;
     font-size: 14px;
   }
+
+  &__search {
+    display: flex;
+    align-items: center;
+
+    input[type=text] {
+      border: none;
+      background: none;
+      width: 80%;
+      padding-left: 22px;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+
+    input[type=submit] {
+      width: 34px;
+      height: 34px;
+      display: block;
+      background: url(/wp-content/uploads/2021/10/search2.png) no-repeat center center;
+      background-size: 22px auto;
+      border: none;
+      cursor: pointer;
+    }
+  }
 }

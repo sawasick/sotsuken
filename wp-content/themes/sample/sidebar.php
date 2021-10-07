@@ -25,9 +25,18 @@
       <li><a href="">趣味</a></li>
     </ul>
   </div>
+  
+  <div class="p-sidebar__inner u-margin__bottom--xxxlarge">
+    <p class="p-sidebar__title--main">検索</p>
+    <form class="p-sidebar__search">
+      <input type="text" placeholder="キーワードを入力">
+      <input type="submit" value="">
+    </form>
+  </div>
 
   <div class="p-sidebar__inner">
     <p class="p-sidebar__title--main">Life.comについて</p>
     <p class="p-sidebar__desc">当サイトはライフスタイルをサポートする情報や生活に役立つコンテンツを発信しています。</p>
   </div>
+
 </div>
