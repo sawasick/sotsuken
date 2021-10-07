@@ -17,6 +17,6 @@
   */
   ?>
   <div>
-    <img src="/wp-content/uploads/2021/10/header_logo.png" alt="Life.com" width="" height="" class="u-img--full">
+    <img src="/wp-content/uploads/2021/10/logo_main.png" alt="Life.com" width="" height="" class="u-img--full">
   </div>
 </header>
