@@ -12,7 +12,7 @@
     position: relative;
     // font-size: 14px;
     padding-left: 15px;
-    color: #777;
+    color: #6F6F6F;
     line-height: 1.2;
 
     &::after {
@@ -23,7 +23,7 @@
       width: 5px;
       height: 5px;
       border: 1px solid;
-      border-color: #777 #777 transparent transparent;
+      border-color: #6F6F6F #6F6F6F transparent transparent;
       transform: rotate(45deg);
     }
     &:first-child::after {
