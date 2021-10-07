@@ -398,8 +398,20 @@ Layout
   height: 40px;
 }
 
-.footer {
-  text-align: center;
+.l-footer {
+  padding: 14px 32px;
+  background-color: #F6F6F6;
+}
+.l-footer__image {
+  width: 12%;
+}
+.l-footer__desc {
+  color: #777;
+  font-size: 16px;
+}
+.l-footer__copyright {
+  color: #9F9F9F;
+  font-size: 14px;
 }
 
 .l-main__wrapper {

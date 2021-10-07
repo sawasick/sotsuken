@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="l-main__wrapper">
   <?php include('breadcrumb.php') ?>
-  <div class="l-main__inner">
+  <div class="l-main__inner u-margin__bottom--xxxlarge">
     <div class="l-article__wrapper">
       <div class="l-article__content p-article">
         <h1 class="c-headingFirst u-margin__bottom--large"><?php the_title();?></h1>
