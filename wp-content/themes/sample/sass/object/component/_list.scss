@@ -1,0 +1,27 @@
+.c-list {
+  padding: 19px 32px;
+  border: 3px solid #FFDCDC;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 1.6;
+
+  li {
+    position: relative;
+    margin-bottom: 16px;
+
+    &::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      position: absolute;
+      top: 10px;
+      left: -14px;
+      background-color: #FF9C9C;
+      border-radius: 50%;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
