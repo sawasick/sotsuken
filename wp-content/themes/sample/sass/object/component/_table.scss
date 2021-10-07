@@ -1,0 +1,31 @@
+.c-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  border-top: 1px solid #bfbfbf;
+  border-left: 1px solid #bfbfbf;
+
+  th {
+    min-width: 130px;
+    padding: 8px 10px;
+    background-color: #FFDCDC;
+    border-bottom: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    text-align: left;
+    font-weight: 400;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  td {
+    min-width: 190px;
+    padding: 8px 10px;
+    border-bottom: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+}

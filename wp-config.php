@@ -26,7 +26,7 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define( 'DB_NAME', 'wordpress' );
+define( 'DB_NAME', 'sawasick_w1_local' );
 
 /** MySQL データベースのユーザー名 */
 define( 'DB_USER', 'root' );
@@ -38,10 +38,10 @@ define( 'DB_PASSWORD', 'root' );
 define( 'DB_HOST', 'localhost' );
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
-define( 'DB_COLLATE', '' );
+// define( 'DB_COLLATE', '' );
 
 /**#@+
  * 認証用ユニークキー

@@ -1,0 +1,41 @@
+.c-heading {
+  &First {
+    // height: 64px;
+    background-color: #FF8787;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 14px 20px;
+    color: #fdfdfd;
+    border-radius: 4px;
+  }
+
+  &Second {
+    // height: 50px;
+    background-color: #fdfdfd;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A2700;
+    padding: 10px 8px;
+    border-bottom: 3px solid #DBDBDB;
+    border-left: 4px solid #FF8787;
+    border-radius: 4px;
+  }
+
+  &Third {
+    // height: 44px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3A2700;
+    padding: 10px 8px;
+    border-left: 4px solid #FFC5C5;
+  }
+
+  &Forth {
+    // height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3A2700;
+    padding: 3px 8px;
+    border-bottom: 3px solid #FFC5C5;
+  }
+}
