@@ -16,7 +16,6 @@ Layout
 @import 'layout/footer';
 @import 'layout/main';
 @import 'layout/article';
-@import 'layout/sidebar';
 
 /* ---------------------------------------------------------
 Object
@@ -32,6 +31,7 @@ Object
 //project
 @import 'object/project/project';
 @import 'object/project/article';
+@import 'object/project//sidebar';
 
 //utility
 @import 'object/utility/margin';
