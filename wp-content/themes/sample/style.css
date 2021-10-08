@@ -475,6 +475,7 @@ Object
   color: #3A2700;
   padding: 3px 8px;
   border-bottom: 3px solid #FFC5C5;
+  display: inline-block;
 }
 
 .c-table {
@@ -618,7 +619,7 @@ Object
 }
 
 .p-article p:not([class]) {
-  color: #232323;
+  color: #3E3737;
   font-size: 16px;
   margin-bottom: 20px;
 }
@@ -757,6 +758,10 @@ Object
 
 .u-img--full {
   max-width: 100%;
+  height: auto;
+}
+.u-img--half {
+  max-width: 50%;
   height: auto;
 }
 /*# sourceMappingURL=style.css.map */
