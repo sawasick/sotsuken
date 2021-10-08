@@ -23,13 +23,14 @@
 <p><span class="u-txt--marker"></span></p>
 
 <!-- リンク -->
-<a  href="" target="_blank" class="u-txt--anchor"></a>
+<a href="" target="_blank" class="u-txt--anchor"></a>
 
 <!-- 注記 -->
 <p><span class="u-txt--note"></span></p>
 
 <!-- 画像 -->
-<img src="/wp-content/uploads/2021/010/.jpg" alt="" width="680" height="380" class="u-img--full u-margin__bottom--small">
+<img src="/wp-content/uploads/2021/010/.jpg" alt="" width="680" height="380"
+  class="u-img--full u-margin__bottom--small">
 
 <!-- リスト -->
 <ul class="c-list u-margin__bottom--large">
