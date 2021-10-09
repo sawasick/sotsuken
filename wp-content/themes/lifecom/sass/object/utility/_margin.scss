@@ -1,0 +1,25 @@
+.u- {
+  &margin {
+    &__bottom {
+      &--xxsmall {
+        margin-bottom: $margin-size-xxsmall !important;
+      }
+
+      &--small {
+        margin-bottom: $margin-size-small !important;
+      }
+
+      &--medium {
+        margin-bottom: $margin-size-medium !important;
+      }
+
+      &--large {
+        margin-bottom: $margin-size-large !important;
+      }
+
+      &--xxxlarge {
+        margin-bottom: $margin-size-xxxlarge !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.l-main {
+  &__wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  &__inner {
+    width: 100%;
+    display: flex;
+  }
+}

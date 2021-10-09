@@ -1,0 +1,54 @@
+#toc_container {
+  margin: 0 auto;
+  border: 1px solid #BFBFBF;
+  border-radius: 2px;
+  margin-bottom: 40px;
+  line-height: 1.4;
+
+  .toc_title {
+    padding: 8px 24px;
+    box-sizing: border-box;
+    background-color: #FFDCDC;
+    position: relative;
+    color: #FF8787;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  .toc_list {
+    padding: 5px 24px;
+    box-sizing: border-box;
+    text-align: right;
+    text-align: left;
+    font-size: 14px;
+    counter-reset: toc;
+
+    li {
+      position: relative;
+
+      &::before {
+        // position: absolute;
+        // top: 8px;
+        // left: 0;
+        // counter-increment: toc;
+        // content: counters(toc, "-") ".";
+        // color: #087ac5;
+        // font-weight: 700;
+      }
+
+      a {
+        display: block;
+        padding: 8px 8px 8px 0;
+        box-sizing: border-box;
+        color: #FF6767;
+        text-decoration: none;
+        border-bottom: 1px dotted #bbb;
+      }
+    }
+    
+    & > li:last-of-type a{
+      border-bottom: 0;
+    }
+  }
+}
