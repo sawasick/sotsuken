@@ -12,9 +12,9 @@
     <p class="p-sidebar__title">ビューティー</p>
     <ul class="p-sidebar__list">
       <li><a href="">スキンケア</a></li>
-      <li><a href="">ネイル</a></li>
+      <li><a href="/nail/">ネイル</a></li>
       <li><a href="">コスメ・化粧品</a></li>
-      <li><a href="">香水</a></li>
+      <li><a href="/perfume/">香水</a></li>
       <li><a href="">ヘア</a></li>
     </ul>
     <p class="p-sidebar__title">ライフスタイル</p>
@@ -25,7 +25,7 @@
       <li><a href="">趣味</a></li>
     </ul>
   </div>
-  
+
   <div class="p-sidebar__inner u-margin__bottom--xxxlarge">
     <p class="p-sidebar__title--main">検索</p>
     <form class="p-sidebar__search">
