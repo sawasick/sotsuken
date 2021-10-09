@@ -41,6 +41,7 @@
 </ul>
 
 <!-- 表 -->
+<!-- 横スクロールさせたい場合は c-table--scroll に変更 -->
 <table class="c-table u-margin__bottom--xxsmall">
   <thead>
     <tr>
