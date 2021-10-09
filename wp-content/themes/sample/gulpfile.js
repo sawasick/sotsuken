@@ -1,5 +1,9 @@
 // gulpプラグインを読み込む
-const { src, dest, watch } = require("gulp");
+const {
+  src,
+  dest,
+  watch
+} = require("gulp");
 // Sassをコンパイルするプラグインを読み込む
 const sass = require("gulp-sass")(require("sass"));
 // ベンダープレフィックスを付与するプラグインを読み込む
@@ -13,25 +17,25 @@ const sourcemaps = require('gulp-sourcemaps');
 const compileSassCompress = () =>
   // style.scssファイルを取得
   src('./sass/style.scss')
-    // ソースマップを作成
-    .pipe(sourcemaps.init())
-    // Sassのコンパイルを実行
-    .pipe(
-      // コンパイル後のCSSを圧縮
-      sass({
-        outputStyle: 'compressed'
-      })
-    )
-    .pipe(
-      // ベンダープレフィックスを付与
-      autoprefixer({
-			cascade: false,
-			grid: true
-		}))　
-    // ソースマップを生成(引数のパスはstyle.cssから見たパス)
-    .pipe(sourcemaps.write('./'))
-    // cssファイルを保存
-    .pipe(dest('./'));
+  // ソースマップを作成
+  // .pipe(sourcemaps.init())
+  // Sassのコンパイルを実行
+  .pipe(
+    // コンパイル後のCSSを圧縮
+    sass({
+      outputStyle: 'compressed'
+    })
+  )
+  .pipe(
+    // ベンダープレフィックスを付与
+    autoprefixer({
+      cascade: false,
+      grid: true
+    }))
+  // ソースマップを生成(引数のパスはstyle.cssから見たパス)
+  // .pipe(sourcemaps.write('./'))
+  // cssファイルを保存
+  .pipe(dest('./'));
 
 
 /**
@@ -40,25 +44,25 @@ const compileSassCompress = () =>
 const compileSassExpand = () =>
   // style.scssファイルを取得
   src('./sass/style.scss')
-    // ソースマップを作成
-    .pipe(sourcemaps.init())
-    // Sassのコンパイルを実行
-    .pipe(
-      // コンパイル後のCSSを展開
-      sass({
-        outputStyle: 'expanded'
-      })
-    )
-    .pipe(
-      // ベンダープレフィックスを付与
-      autoprefixer({
-			cascade: false,
-			grid: true
-		}))　
-    // ソースマップを生成(引数のパスはstyle.cssから見たパス)
-    .pipe(sourcemaps.write('./'))
-    // cssファイルを保存
-    .pipe(dest('./'));
+  // ソースマップを作成
+  .pipe(sourcemaps.init())
+  // Sassのコンパイルを実行
+  .pipe(
+    // コンパイル後のCSSを展開
+    sass({
+      outputStyle: 'expanded'
+    })
+  )
+  .pipe(
+    // ベンダープレフィックスを付与
+    autoprefixer({
+      cascade: false,
+      grid: true
+    }))
+  // ソースマップを生成(引数のパスはstyle.cssから見たパス)
+  .pipe(sourcemaps.write('./'))
+  // cssファイルを保存
+  .pipe(dest('./'));
 
 /**
  * Sassファイルを監視し、変更があったらSassを変換する
