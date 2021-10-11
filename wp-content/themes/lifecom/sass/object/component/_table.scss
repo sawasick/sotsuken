@@ -11,7 +11,7 @@
 
   &--scroll {
     display: block;
-    overflow: scroll;
+    overflow-x: scroll;
     white-space: nowrap;
 
     th:first-child {

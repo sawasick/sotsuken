@@ -4,8 +4,13 @@
   display: flex;
   white-space: nowrap;
   overflow-x: scroll;
+  -ms-overflow-style: none; //edgeでスクロールバー非表示
   scrollbar-width: none;
   font-size: 12px;
+
+  &::-webkit-scrollbar {
+    display: none; //新edgeでスクロールバー非表示
+  }
 
   li {
     display: inline-block;
