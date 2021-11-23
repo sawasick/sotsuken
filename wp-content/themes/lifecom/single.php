@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php include('EMREndBtn.php') ?>
 <div class="l-main__wrapper">
   <?php include('breadcrumb.php') ?>
   <div class="l-main__inner u-margin__bottom--xxxlarge">
